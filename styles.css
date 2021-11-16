@@ -18,6 +18,14 @@ h5{
     text-align: center;
     color:#470e7c;
 }
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .modal-title,.modal-content{
     background-color: rgb(201, 42, 196)!important;
 }
