@@ -14,7 +14,7 @@ h1{
   color: #470e7c;
 }
 h5{
-    font-size: 3rem!important;
+    font-size: 2rem!important;
     text-align: center;
     color:#470e7c;
 }
@@ -30,7 +30,9 @@ h5{
     background-color: rgb(201, 42, 196)!important;
 }
 .modal-header{
+    display:unset!important;
     border-bottom: unset!important;
+    border-radius: 100%;
 }
 .button{
   position:absolute;
@@ -46,6 +48,13 @@ h5{
 #sí{
     left:20%;
     transform:translateY(-50%) translateX(-20%);
+}
+.imgc{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: .5rem;
 }
 #no{
     left:80%;
