@@ -58,6 +58,7 @@ h5{
 #no{
     left:80%;
     transform:translateY(-50%) translateX(-80%);
+    cursor:none;
 }
 #no:active{
     border-style: outset!important;
